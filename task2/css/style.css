@@ -1,0 +1,182 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{   
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f4f5fe;
+}
+
+.flex-container{
+    display: flex;
+    height: 800px;
+}
+
+.col-4 {
+    width: 33.33%;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.col-4 .context{
+    background-color: white;
+    height: 700px;
+}
+
+.col-4 .context .level .price{
+    border-top: 2px dashed #f4f5fe;
+    border-bottom: 2px dashed #f4f5fe;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #080a3c;
+}
+
+.container .flex-container .col-4 .perks p{
+    font-size: 14px;
+    margin-left: 30px;
+    padding: 4px;
+    color: #444683;
+}
+
+.container .flex-container .col-4 .perks p .icon{
+    position: relative;
+    /* left: 43%; */
+    color: #20c997;;
+}
+.irow-1
+{
+    position: relative;
+    left: 160px;
+}
+.irow-2{
+    position: relative;
+    left: 174px;
+}
+.irow-3{
+    position: relative;
+    left: 218px;
+}
+.irow-4{
+    position: relative;
+    left: 199px;
+}
+.irow-5{
+    position: relative;
+    left: 161px;
+}
+.irow-6{
+    position: relative;
+    left: 245px;
+}
+.irow-7{
+    position: relative;
+    left: 159px;
+}
+.irow-8{
+    position: relative;
+    left: 200px;
+}
+.irow-9{
+    position: relative;
+    left: 172px;
+}
+.irow-10{
+    position: relative;
+    left: 232px;
+}
+.irow-11{
+    position: relative;
+    left: 201px;
+}
+
+#prblm{
+    position: relative;
+    left: 171px;
+}
+
+.container .flex-container .col-4 .fst-p{
+    margin-top: 25px;
+}
+
+.container .flex-container .col-4 .level p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.container .flex-container .col-4 .price .time{
+    color: #4a6f8a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container .flex-container .col-4 .price .digit{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container .flex-container .col-4 .price .digit::before{
+    position: absolute;
+    content: "$";
+    font-size: 18px;
+    right: 25px;
+    top: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 75px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+#bgcolor1{
+    background-color: #343a40;
+}
+#bgcolor2{
+    background-color: #fd7e14;
+}
+#bgcolor3{
+    background-color: #20c997;;
+}
+
+#fst-itemc{
+    color: #fd7e14;
+}
+
+#scnd-itemc{
+    color: #343a40;
+}
+
+#thrd-itemc{
+    color: #fd7e14;
+}
